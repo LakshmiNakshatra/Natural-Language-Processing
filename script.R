@@ -53,7 +53,7 @@ test_set = subset(dataset, split == FALSE)
 
 # Fitting Random Forest Classification to the Training set
 # install.packages('randomForest')
-# library(randomForest)
+library(randomForest)
 set.seed(123)
 classifier = randomForest(x = training_set[-692], y = training_set$Liked, ntree = 100, mtry=26)
 

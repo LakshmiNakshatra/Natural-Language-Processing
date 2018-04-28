@@ -1,2 +1,2 @@
 # Natural-Language-Processing
-NLP is applied on text reviews of a restaurant to predict if the reviews are good or bad
+Factors contributing towards positive and negative customer reviews of a restaurant are identified by preprocessing text data using Natural Language Processing and fitting Random Forest Classifier.
